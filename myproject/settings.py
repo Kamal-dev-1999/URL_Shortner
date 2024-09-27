@@ -140,8 +140,8 @@ DATABASES = {
 	'default': {
 		'ENGINE': 'django.db.backends.mysql',
 		'NAME': 'mydb',
-		'USER': 'root',
-		'PASSWORD': 'Kamal1395',
+		'USER': 'USername',
+		'PASSWORD': 'Your database pass',
 		'HOST':'localhost',
 		'PORT':'3306',
 	}
@@ -208,13 +208,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # smtp mail
 # Email settings for sending OTP
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'kamaltripathi1431@gmail.com'
-EMAIL_HOST_PASSWORD = 'jqyp tgxm etfb uiwc'
-DEFAULT_FROM_EMAIL = '1032220730@tcetmumbai.in'
 
 
 
